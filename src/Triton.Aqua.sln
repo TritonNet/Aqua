@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triton.Aqua", "Triton.Aqua\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triton.Aqua.Test", "Triton.Aqua.Test\Triton.Aqua.Test.vcxproj", "{2D0F36A0-81E3-4A9D-8A99-34CE5F367EDE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BFC3DBEE-FF6E-4799-96F8-1201D3890AB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triton.Aqua.Samples.LedControl", "Samples\Triton.Aqua.Samples.LedControl\Triton.Aqua.Samples.LedControl.vcxproj", "{8E221825-F4D7-4E69-90D4-A824FE40E473}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -59,9 +63,36 @@ Global
 		{2D0F36A0-81E3-4A9D-8A99-34CE5F367EDE}.Release|x64.Build.0 = Release|x64
 		{2D0F36A0-81E3-4A9D-8A99-34CE5F367EDE}.Release|x86.ActiveCfg = Release|Win32
 		{2D0F36A0-81E3-4A9D-8A99-34CE5F367EDE}.Release|x86.Build.0 = Release|Win32
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|ARM.Build.0 = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|ARM64.Build.0 = Debug|ARM64
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|x64.ActiveCfg = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|x64.Build.0 = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|x64.Deploy.0 = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|x86.ActiveCfg = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|x86.Build.0 = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Debug|x86.Deploy.0 = Debug|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|ARM.ActiveCfg = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|ARM.Build.0 = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|ARM.Deploy.0 = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|ARM64.ActiveCfg = Release|ARM64
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|ARM64.Build.0 = Release|ARM64
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|ARM64.Deploy.0 = Release|ARM64
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|x64.ActiveCfg = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|x64.Build.0 = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|x64.Deploy.0 = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|x86.ActiveCfg = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|x86.Build.0 = Release|ARM
+		{8E221825-F4D7-4E69-90D4-A824FE40E473}.Release|x86.Deploy.0 = Release|ARM
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E221825-F4D7-4E69-90D4-A824FE40E473} = {BFC3DBEE-FF6E-4799-96F8-1201D3890AB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA68B9C7-6E76-4DAB-858E-60B4FDF88EFE}

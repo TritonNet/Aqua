@@ -26,7 +26,7 @@ int main(void)
 
 
 	while (true)
-	{		
+	{
 		digitalWrite(LED_1, HIGH);  // On
 		delay(DELAY_MS); // ms
 

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{db4c0dab-2579-4c6d-88fc-35430269766b}</ProjectGuid>
+    <ProjectGuid>{8e221825-f4d7-4e69-90d4-a824fe40e473}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>Triton_Aqua</RootNamespace>
+    <RootNamespace>Triton_Aqua_Samples_LedControl</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
@@ -68,7 +68,6 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\WiringPi\wiringPi\wiringPi.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
