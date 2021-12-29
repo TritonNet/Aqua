@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BFC3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triton.Aqua.Samples.LedControl", "Samples\Triton.Aqua.Samples.LedControl\Triton.Aqua.Samples.LedControl.vcxproj", "{8E221825-F4D7-4E69-90D4-A824FE40E473}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{8CDB0D43-A3AE-4102-AD1A-98FADBC65416}"
+	ProjectSection(SolutionItems) = preProject
+		install.sh = install.sh
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM

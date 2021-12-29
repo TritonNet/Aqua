@@ -65,10 +65,16 @@
     </RemotePostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Aquarium.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scheduler.cpp" />
+    <ClCompile Include="Sprinkler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\WiringPi\wiringPi\wiringPi.h" />
+    <ClInclude Include="Aquarium.h" />
+    <ClInclude Include="Scheduler.h" />
+    <ClInclude Include="Sprinkler.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
